@@ -1,0 +1,93 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.username {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.job-title {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.profile-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 1em;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.main-para {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.review-quote {
+  font-size: 13px;
+  line-height: 2em;
+}
+
+.username-light {
+  color: hsl(210, 46%, 95%);
+}
+
+.job-title-light {
+  color: hsla(210, 46%, 95%, 0.5);
+}
+
+.main-para-light {
+  color: hsl(0, 0%, 98%);
+}
+
+.review-quote-light {
+  color: hsla(210, 46%, 95%, 0.7);
+}
+
+.username-dark {
+  color: hsl(219, 29%, 14%);
+}
+
+.job-title-dark {
+  color: hsla(219, 29%, 14%, 0.5);
+}
+
+.main-para-dark {
+  color: hsla(219, 29%, 14%);
+}
+
+.review-quote-dark {
+  color: hsla(219, 29%, 14%, 0.7);
+}
+
+@media screen and (max-width: 900px) {
+  .testimonial {
+    margin-right: 0;
+    width: 90% !important;
+  }
+
+  .review-quote {
+    line-height: 2em;
+  }
+}
